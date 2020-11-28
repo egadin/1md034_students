@@ -1,0 +1,81 @@
+body {
+  font-family: "Courier New";
+  font-size: 14 px;
+}
+
+.Ingridients {
+  font-weight: bold;
+}
+
+.wrapper {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 5;
+}
+
+.item {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 20px;
+  vertical-align: top;
+}
+
+.item > * {
+  display: block;
+}
+
+
+.item > img {
+  width: 200px;
+  height: 200px;
+}
+
+
+#burgers {
+  background-color: black;
+  color: white;
+  border: 2px dotted white;
+}
+
+#customerinfo {
+  margin-top: 10px;
+  border: 2px dotted black;
+}
+
+#table {
+  width: 75%;
+  align-items: center;
+}
+
+#submit {
+  margin-top: 40px
+}
+
+#header {
+  margin-left: 10px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#vt {
+  padding-left: 400px;
+  padding-top: 30px;
+  font-size: 30pt;
+  position: absolute;
+}
+
+#imghead {
+  opacity: 0.5;
+  width: 100%
+}
+
+section {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding: 3px;
+  padding-left: 10px;
+}
+button:hover {
+  background-color: gray;
+  cursor: pointer;
+}

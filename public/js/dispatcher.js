@@ -15,6 +15,7 @@ var vm = new Vue({
     }.bind(this));
 
     socket.on('currentQueue', function (data) {
+      console.log(data);
       this.orders = data.orders;
     }.bind(this));
   }
